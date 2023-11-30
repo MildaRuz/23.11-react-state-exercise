@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  /* width: 300px; */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 8px;
+  font-weight: bolder;
+  background-color: rgb(75, 74, 74);
+  color: white;
+  padding: 10px;
+  margin: 15px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: dimgray;
+}
+.square,
+.blueSquare,
+.redSquare {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(130, 149, 135);
+}
+.square,
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: xx-large;
+}
+.blueSquare {
+  background-color: rgb(54, 96, 193);
+  margin: 5px;
+}
+.redSquare {
+  background-color: rgb(213, 62, 62);
+  margin: 5px;
+}
+
+.containerRowDirection {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
